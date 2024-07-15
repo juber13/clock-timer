@@ -1,8 +1,28 @@
-# React + Vite
+# GitHubUser Profile Fetcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a github user profile fetcher online application
+where user can fetch user profile after entering userName
 
-Currently, two official plugins are available:
+## [Hosted Link](https://git-hub-users-gamma.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+![Image Description](./images/Screenshot%202024-07-15%20131246.png)
+![My Image](./images/Screenshot%202024-07-15%20131301.png)
+
+
+
+
+#Tech stack used :)
+
+## React + vite
+## Tailwind css
+## React icons
+
+ <hr/>
+
+# Features :)
+
+## Find github user
+## User all necessary details
+## Responsive for all movile devices
+
