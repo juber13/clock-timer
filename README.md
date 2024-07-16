@@ -3,7 +3,7 @@
 This is a timer application where you can reset ans pause and take break of 5 minutes
 where user can fetch user profile after entering userName
 
-## [Hosted Link](https://git-hub-users-gamma.vercel.app/)
+## [Hosted Link](https://githubuser-sigma.vercel.app/)
 
 
 ![image](./images/Screenshot%202024-07-16%20154527.png)
