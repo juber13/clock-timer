@@ -6,7 +6,7 @@ where user can fetch user profile after entering userName
 ## [Hosted Link](https://git-hub-users-gamma.vercel.app/)
 
 
-(./images/Screenshot%202024-07-16%20154527.png)
+![image](./images/Screenshot%202024-07-16%20154527.png)
 (./images/Screenshot%202024-07-16%20154535.png)
 (./images/Screenshot%202024-07-16%20155932.png)
 
