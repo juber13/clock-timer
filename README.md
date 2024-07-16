@@ -1,13 +1,14 @@
-# GitHubUser Profile Fetcher
+# Timer Clock
 
-This is a github user profile fetcher online application
+This is a timer application where you can reset ans pause and take break of 5 minutes
 where user can fetch user profile after entering userName
 
 ## [Hosted Link](https://git-hub-users-gamma.vercel.app/)
 
 
-![Image Description](./images/Screenshot%202024-07-15%20131246.png)
-![My Image](./images/Screenshot%202024-07-15%20131301.png)
+(./images/Screenshot%202024-07-16%20154527.png)
+(./images/Screenshot%202024-07-16%20154535.png)
+(./images/Screenshot%202024-07-16%20155932.png)
 
 
 
@@ -17,12 +18,12 @@ where user can fetch user profile after entering userName
 ## React + vite
 ## Tailwind css
 ## React icons
+## firbase authentication
 
  <hr/>
 
 # Features :)
 
-## Find github user
-## User all necessary details
-## Responsive for all movile devices
-
+## timer for 25 minutes
+## Login and register 
+## pause start and reset functionality
