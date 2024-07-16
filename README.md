@@ -7,8 +7,8 @@ where user can fetch user profile after entering userName
 
 
 ![image](./images/Screenshot%202024-07-16%20154527.png)
-(./images/Screenshot%202024-07-16%20154535.png)
-(./images/Screenshot%202024-07-16%20155932.png)
+![image](./images/Screenshot%202024-07-16%20154535.png)
+![image](./images/Screenshot%202024-07-16%20155932.png)
 
 
 
