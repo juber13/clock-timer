@@ -1,46 +1,25 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable no-unused-vars */
-import React from "react";
-import { FaGithub } from "react-icons/fa";
-import { CiSearch } from "react-icons/ci";
+import React from 'react'
+import { PiTimerThin } from "react-icons/pi";
 
-const Header = ({
-    setSearchText,
-    searchText,
-    fetchUser,
-    users,
-    handleSubmit,
-}) => {
-    return (
-        <>
-            {users !== null ? (
-                <div className='p-4  flex items-center  justify-between shadow-md border font-semibold '>
-                    <div className='icons text-4xl'>
-                        <a href='/'>
-                            <FaGithub />
-                        </a>
-                    </div>
+import { useNavigate } from 'react-router-dom';
+import { toast } from 'react-toastify';
+const Header = () => {
+  const navigate = useNavigate();
 
-                    <div className='search-bar-container'>
-                        <form onSubmit={handleSubmit} className='border rounded-md '>
-                            <input
-                                value={searchText}
-                                onChange={e => setSearchText(e.target.value)}
-                                className=' p-2 text-sm rounded-md outline-none'
-                                type='search'
-                                placeholder='userName...'
-                            />
-                            <button className='text-xs border-l  p-1' type='submit'>
-                                <CiSearch className='text-1xl' />
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            ) : (
-                ""
-            )}
-        </>
-    );
-};
+  const handleLogout = () => {
+    localStorage.clear();
+    toast.success('Logged out', { position: "top-center" })
+    navigate('/login')
+  }
 
-export default Header;
+
+
+  return (
+    <div className='p-4 shadow-md flex items-center justify-between'>
+      <h3 className='flex items-center gap-2'>Timer <PiTimerThin size={"20px"}/></h3>
+      {localStorage.getItem('user') ? <button className='border p-2 text-xs rounded-md shadow-md' onClick={handleLogout}>Logged Out</button> : ""}
+    </div>
+  )
+}
+
+export default Header
